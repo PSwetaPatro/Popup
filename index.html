@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Popup Login</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="./5087607.png" type="image/x-icon">
 </head>
 <body>
     <section>
@@ -86,28 +85,30 @@
 
     <script>
 
-        let a = document.querySelector("#show-login")
-        a.addEventListener('click', function(){
+        let aa = document.querySelector("#show-login")
+        aa.addEventListener('click', function(){
         document.querySelector('.popup').classList.add('active');
         });
 
-        let b = document.querySelector(".popup .close-btn")
-        b.addEventListener('click', function(){
+        let bb = document.querySelector(".popup .close-btn")
+        bb.addEventListener('click', function(){
         document.querySelector('.popup').classList.remove('active');
         });
 
-        let c = document.querySelector(".signup")
-        c.addEventListener('click', function(){
+        let cc = document.querySelector(".signup")
+        cc.addEventListener('click', function(){
         document.querySelector('.popup-signup').classList.add('active');
         });
 
-        let d = document.querySelector(".popup-signup .close-btns")
-        d.addEventListener('click', function(){
+        let dd = document.querySelector(".popup-signup .close-btns")
+        dd.addEventListener('click', function(){
         document.querySelector('.popup-signup').classList.remove('active');
+        
+
         });
 
-        let e = document.querySelector(".signin")
-        e.addEventListener('click', function(){
+        let ee= document.querySelector(".signin")
+        ee.addEventListener('click', function(){
         document.querySelector('.popup-signup').classList.remove('active');
         });
 
